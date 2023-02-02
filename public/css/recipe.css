@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Calistoga&family=Open+Sans:wght@400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: yellowgreen;
+  color: white;
+  padding: 1rem;
+  font-size: 1rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  padding: 1rem;
+  font-family: "Calistoga", cursive;
+  color: blueviolet;
+}
+
+.content {
+  display: flex;
+  padding: 1rem;
+}
+
+.side {
+  width: 50%;
+}
+
+.img-wrap {
+  width: 80%;
+  border: 5px solid rgb(87, 87, 87);
+  margin-bottom: 3rem;
+}
+
+img {
+  width: 100%;
+  margin: auto;
+  display: block;
+  object-fit: cover;
+  position: relative;
+  left: 1.5rem;
+  top: 1.5rem;
+}
+
+.nutrition {
+  width: 80%;
+  padding: 2rem;
+  background-color: gray;
+}
+
+.nutrition ul {
+  columns: 2;
+}
+
+.ingredients {
+  text-align: center;
+  font-family: "Calistoga", cursive;
+}
+
+ul {
+  list-style: none;
+  columns: 2;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  margin: 2rem 0;
+  color: rgb(94, 92, 92);
+  text-align: left;
+}
+
+li {
+  margin: 1rem 0;
+  font-weight: 400;
+}
